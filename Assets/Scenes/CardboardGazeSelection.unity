@@ -944,11 +944,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 1000
   playerBody: {fileID: 907292808}
---- !u!1 &1016134317 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1380128858547500916, guid: 2f0cfbe390129804b9cfe188ef6b5023, type: 3}
-  m_PrefabInstance: {fileID: 503014909}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1199920616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +1068,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!102 &1347003813
 TextMesh:
   serializedVersion: 3
@@ -1319,7 +1314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 97}
+  m_AnchoredPosition: {x: -4, y: 125}
   m_SizeDelta: {x: 160, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1510771924
@@ -1389,7 +1384,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1510771924}
-  enemyObject: {fileID: 1016134317}
+  EnemigoAparecer: {fileID: 1617198756}
+--- !u!1 &1617198756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2298623838811446918, guid: 2f0cfbe390129804b9cfe188ef6b5023, type: 3}
+  m_PrefabInstance: {fileID: 503014909}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1703469847 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1964140095653564118, guid: 12e5e37d5defba54b9a789c60c65a3fd, type: 3}
