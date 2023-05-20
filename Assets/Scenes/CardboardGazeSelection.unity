@@ -341,6 +341,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1380128858547500916, guid: 2f0cfbe390129804b9cfe188ef6b5023, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
+      objectReference: {fileID: 0}
     - target: {fileID: 1760031482556804558, guid: 2f0cfbe390129804b9cfe188ef6b5023, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.6
@@ -940,6 +944,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 1000
   playerBody: {fileID: 907292808}
+--- !u!1 &1016134317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1380128858547500916, guid: 2f0cfbe390129804b9cfe188ef6b5023, type: 3}
+  m_PrefabInstance: {fileID: 503014909}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1199920616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,6 +1389,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1510771924}
+  enemyObject: {fileID: 1016134317}
+--- !u!1 &1703469847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1964140095653564118, guid: 12e5e37d5defba54b9a789c60c65a3fd, type: 3}
+  m_PrefabInstance: {fileID: 1817819927}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1703469849
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703469847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1799306720
 PrefabInstance:
   m_ObjectHideFlags: 0
