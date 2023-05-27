@@ -1039,10 +1039,10 @@ GameObject:
   - component: {fileID: 907292810}
   - component: {fileID: 907292811}
   - component: {fileID: 907292812}
-<<<<<<< HEAD
+ HEAD
   - component: {fileID: 907292814}
-=======
->>>>>>> 2786c705df5289426458196027f000a1b59b706c
+
+ 2786c705df5289426458196027f000a1b59b706c
   - component: {fileID: 907292813}
   m_Layer: 0
   m_Name: Player
