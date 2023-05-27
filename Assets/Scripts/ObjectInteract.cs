@@ -12,7 +12,7 @@ public class ObjectInteract : MonoBehaviour
     }
 
     private void OnTriggerEnter (Collider other){
-        if (other.tag == " Player"){
+        if (other.tag == " Key"){
             Destroy(gameObject);
             inventario.Cantidad = inventario.Cantidad + 1;
         }
