@@ -25,7 +25,7 @@ public class mandods4 : MonoBehaviour
         );
 
         // Calcular la dirección del movimiento
-        Vector3 moveDirection = new Vector3(moveInput.x, 0f, moveInput.y);
+        Vector3 moveDirection = new Vector3(Camera.main.transform.forward.x,0,Camera.main.transform.forward.z) + new Vector3(moveInput.x, 0f, moveInput.y);
         moveDirection.Normalize();
 
         // Transformar la dirección del movimiento al espacio del jugador
@@ -43,6 +43,8 @@ public class mandods4 : MonoBehaviour
             moveDirection.y = 0f; // Reiniciamos la dirección vertical del movimiento
         }
         moveDirection.y -= gravity * Time.deltaTime; // Aplicamos la gravedad
+
+
         controller.Move(moveDirection * Time.deltaTime); // Aplicamos el movimiento en la dirección calculada
     }
 }
