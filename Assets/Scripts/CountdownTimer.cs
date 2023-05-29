@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class CountdownTimer : MonoBehaviour
 {
     public Text timerText;
-    private float totalTime = 30f;
+    private float totalTime = 5f;
     private float currentTime;
     public GameObject EnemigoAparecer;
     

@@ -5,19 +5,41 @@ using UnityEngine.AI;
 
 public class NavMeshController : MonoBehaviour
 {
+    public Transform player;
+    private NavMeshAgent agent;
+    private Animator animator;
+    private bool pursuing;
 
-    public Transform objetivo;
-    private NavMeshAgent agente;
-    // Start is called before the first frame update
     void Start()
     {
-        agente = GetComponent<NavMeshAgent>();
-        
+        agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+        pursuing = true;
+        agent.destination = player.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        agente.destination = objetivo.position;
+        animator = GetComponent<Animator>();
+        animator.SetBool("Correr", pursuing);
+
+        if (pursuing)
+        {
+            agent.destination = player.position;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            pursuing = false;
+            animator.SetBool("Ataque", true);
+            animator.SetBool("Correr", false);
+        }
     }
 }
+
+
+
+
