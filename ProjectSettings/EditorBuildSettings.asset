@@ -6,15 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu de inicio.unity
+    guid: e582b4e36c9a5614289711581e7388fd
+  - enabled: 1
     path: Assets/Scenes/CardboardGazeSelection.unity
     guid: 1cd15a021031ae7499d0cccf9e08a129
   - enabled: 1
     path: Assets/Scenes/Menu Ganaste.unity
     guid: 556877ad17aae3d448c6c2321667b381
   - enabled: 1
-    path: Assets/Scenes/Menu de inicio.unity
-    guid: e582b4e36c9a5614289711581e7388fd
-  - enabled: 1
     path: Assets/Scenes/Menu Perdiste.unity
     guid: 39ef2ebace4e216428ace92e4fa637e9
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d270fbefb12006b4c8a8bb66a01e90d6, type: 2}
