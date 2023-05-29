@@ -7,7 +7,7 @@ public class CambioEscena : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other){
         if (other.tag == "Player"){
-            SceneManager.LoadScene("Menu de inicio");
+            SceneManager.LoadScene("Menu Perdiste");
         }
     }
 }
