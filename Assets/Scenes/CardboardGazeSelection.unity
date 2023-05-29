@@ -3670,9 +3670,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escena completa
       objectReference: {fileID: 0}
+    - target: {fileID: 3222698133580344102, guid: 12e5e37d5defba54b9a789c60c65a3fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3222698133790463320, guid: 12e5e37d5defba54b9a789c60c65a3fd, type: 3}
       propertyPath: m_TagString
-      value: Key
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 3222698134257305679, guid: 12e5e37d5defba54b9a789c60c65a3fd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5520433899208507320, guid: 12e5e37d5defba54b9a789c60c65a3fd, type: 3}
       propertyPath: m_LocalPosition.x
